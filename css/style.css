@@ -1,0 +1,258 @@
+/* ======= Google fonts ==============*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/* ======= Common CSS ==============*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+a:hover{
+	text-decoration: none;
+}
+.col-md-10{
+	position: static;
+}
+
+/* ======= Header CSS ==============*/
+
+.tin-header-top{
+	background: #fcdb00;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 40px;
+}
+.logo{}
+.tin-menu{}
+.tin-menu ul{
+	display: flex;
+	float: right;
+}
+.tin-menu ul li{
+	list-style:none; 
+}
+.tin-menu ul li a{
+	padding: 10px 20px;
+	display: block;
+	font-size: 22px;
+	font-weight: 700;
+	color: #000;
+	transition: 1s;
+}
+.tin-menu ul li a i{
+	color: #264348;
+}
+.tin-menu ul li a:hover{
+	color: #BDC3C7;
+}
+.menu-icon{
+	padding: 10px 20px;
+	display: block;
+	font-size: 22px;
+	font-weight: 700;
+	color: #000;
+}
+.menu-icon:hover{
+	cursor: pointer;
+}
+.menu-content{
+	display: none;
+}
+.menu{
+
+	background-color: #757D75;
+	width: 100%;
+	position: absolute;
+	top: 100px;
+	right:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+   
+}
+.menu ul{
+	display: flex;
+}
+.menu ul li{
+	list-style: none;
+
+}
+.menu ul li a{
+	padding:0 20px;
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 700;
+	color: #000;
+	text-transform: capitalize;
+	transition: 1s;
+
+}
+.menu ul li a:hover{
+	color: #BDC3C7;
+}
+.close{
+	margin-left: 10px;
+	padding: 0;
+
+}
+.close i{
+	font-size: 30px;
+	color: #CF000F;
+}
+.close span{
+	font-size: 20px;
+	color: #CF000F;
+	
+}
+.close:hover{
+	cursor: pointer;
+}
+.tin-header-bottom{
+	background:#fcdb00;
+	padding: 50px; 
+}
+.tin-header-text{
+	margin-top: 120px;
+}
+.tin-header-text h2{
+	font-weight: 700;
+	padding: 20px 0;
+}
+.tin-header-text h5{
+}
+.tin-header-text p{
+	padding: 20px 0;
+}
+.all-icon{
+	display: flex;
+}
+.icon{
+	padding: 0 20px;
+}
+.icon i{
+	font-size: 35px;
+}
+.header-img{
+	margin-top: 60px;
+	width: 350px;
+	margin-bottom: 50px;
+}
+
+       /* ======= Feature sec CSS ==============*/
+
+.tin-feature{
+	background-color: #ffffff;
+	padding: 80px 0;
+}
+.tin-feature-top{}
+.tin-feature-top h2{
+	text-align: center;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+.tin-feature-top h5{
+	text-align: center;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #000;
+}
+.tin-feature-bottom{
+	padding: 30px 0;
+}
+.tin-fe-item{
+	display: flex;
+	transition: .9s;
+}
+.tin-fe-icon{
+	padding-right:20px;
+	margin-top: 8px;	
+}
+.tin-fe-icon i{
+	font-size: 40px;
+}
+.tin-fe-text{
+	padding-bottom:30px;	
+}
+.tin-fe-text h3{}
+.tin-fe-text p{
+	padding: 5px;
+}
+.tin-fe-item:hover{
+	transform: scale(1.05);
+
+}
+
+      /* ======= Footer CSS ==============*/
+
+
+.tin-footer{
+	padding-bottom: 100px;
+	background-color: #010101;
+}
+.tin-footer-top{
+	padding: 50px 0;
+	text-align: center;
+}
+.tin-footer-top h3{
+	color: #fcdb00;
+}
+.tin-footer-top h5{
+	color: #717171;
+	padding: 20px 0;
+	width: 700px;
+    margin: auto;
+}
+.feedback{
+  width: 700px;
+  margin: auto;
+}
+.feedback input{
+	width: 75%;
+	height: 40px;
+	border-radius: 5px;
+    border:none;
+}
+.feedback button{
+	width: 100px;
+	height: 40px;
+	text-transform: uppercase;
+	background-color:  #fcdb00;
+	color: #000;
+	font-weight: 700;
+	border-radius: 5px;
+	border:none;
+	margin-left: 10px;
+}
+
+.con-icon{
+	width: 250px ;
+	margin: auto;
+}
+.con-icon a{
+	font-size: 35px;
+	padding: 50px 10px;
+	color: #fcdb00;
+	display:inline-block;
+    
+}
+.tin-footer-bottom{
+	padding: 50px;
+}
+.tin-con-info{}	
+.tin-con-info span{
+	color: #fff;
+}	
+.tin-footer-link{}
+.tin-footer-link a{
+	display: block;
+	color: #fff;
+}
